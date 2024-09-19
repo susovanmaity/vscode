@@ -1,0 +1,278 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 0px 150px;
+}
+
+.nav_items {
+    padding: 20px 10px 0px 10px;
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
+    color: grey;
+    font-size: large;
+}
+
+.nav_items:hover {
+    color: black;
+}
+
+.vscode {
+    display: flex;
+}
+
+.nav_image {
+    padding: 19px 10px 10px 10px;
+}
+
+.nav_name {
+    font-weight: 500;
+    font-size: large;
+    padding: 0px 20px 0px 0px;
+}
+
+.search_download {
+    display: flex;
+    margin: 0px 0px 0px 200px;
+}
+
+.darkmode {
+    margin: 5px 10px 0px 0px;
+}
+
+.search {
+    padding: 5px;
+    font-size: 90%;
+    margin: 0px 10px 0px 0px;
+    border: none;
+
+}
+
+input {
+    border: 0;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.search_image {
+    padding: 5px 0px 0px 10px;
+}
+
+.search_area {
+    display: flex;
+    border: 2px solid rgb(59, 134, 255);
+    border-radius: 5px;
+    margin: 0px 20px 0px 0px;
+}
+
+.Download_button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border: none;
+}
+
+.Download_button:hover {
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    border: none;
+}
+
+.update {
+    text-align: center;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.version_1 {
+    color: rgb(11, 104, 254);
+}
+
+.vs_code {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.heading_main {
+    margin: 0px 0px -30px 0px;
+    font-weight: 500;
+}
+
+.para_under_vscode {
+    margin: -30 0px 0px 0px;
+    font-size: 20px;
+}
+
+.OS {
+    margin: 0px 110px 0px 215px;
+    text-align: center;
+    display: flex;
+}
+
+.windows {
+    vertical-align: top;
+    display: inline-block;
+    padding: 25px;
+    font-size: large;
+
+}
+
+.windows_logo {
+    margin: 55px 0px 40px 0px;
+}
+
+.downloads {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin: -21px 22px 11px 20px;
+}
+
+.versions {
+    background-color: rgb(25, 117, 255);
+    padding: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.table {
+    border: none;
+    table-layout: none;
+}
+
+.linux {
+    padding: 32px 18px 10px 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.downloads_linux {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin: -21px 22px 11px 20px;
+}
+
+.linux_image {
+    margin: 18px;
+}
+
+.mac_logo {
+    margin: 49px 0px 49px 0px;
+}
+
+.mac_downloads {
+    padding: 0px 0px 0px 0px;
+}
+
+.downloads-mac {
+    border-radius: 5px;
+    background-color: rgb(11, 104, 254);
+    color: white;
+    padding: 1px 45px 0px 35px;
+    margin: -21px 54px 0px 70px;
+}
+
+.privacy_statement {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.updates {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.insiders {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.previous_versions {
+    color: rgb(11, 102, 254);
+}
+
+.vsdev {
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+}
+
+.swastik {
+    font-size: 20px;
+}
+
+.insiders_build {
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+}
+
+.vscodedev {
+    color: rgb(0, 119, 255);
+}
+
+.prev_ver {
+    text-align: center;
+}
+
+.socials {
+    padding: 100px;
+}
+
+.Github {
+    margin: 20px;
+}
+
+.Microsoft {
+    float: right;
+}
+
+.footer {
+    display: flex;
+}
+
+.support {
+    padding: 0px 20px 0px 0px;
+}
+
+.Terms {
+    padding: 0px 0px 0px 20px;
+}
+
+.license {
+    padding: 0px 0px 0px 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: black
+}
